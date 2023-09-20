@@ -5,6 +5,11 @@ body{
     font-size: 22px;
 }
 
+a{
+    text-decoration: none;
+    color: #313131;
+}
+
 .main-header{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
@@ -22,14 +27,22 @@ body{
 }
 
 ul li{
+    
     list-style-type: none;
     border: 2px solid rgb(92, 92, 92);
     margin: 10px;
     padding: 25px;
     border-radius: 15px;
+    text-align: center;
 }
 
-a{
-    text-decoration: none;
-    color: #313131;
+ol li{
+    padding: 15px;
 }
+
+.steps{
+    background-color: rgb(175, 175, 175);
+    border: 2px solid rgb(92, 92, 92);
+    border-radius: 15px;
+}
+
