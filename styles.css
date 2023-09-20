@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(216, 233, 255);
+    margin: 25px 15%;
+}
+
+.main-header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: rgb(175, 175, 175);
+    border-radius: 15px;
+    color: #313131;
+}
+
+.recipe-list{
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: rgb(175, 175, 175);
+}
+
+ul li{
+    list-style-type: none;
+    border: 2px solid rgb(92, 92, 92);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+a{
+    text-decoration: none;
+}
